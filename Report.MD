@@ -1,4 +1,4 @@
-# 📊 Sales & Customer Performance Analysis Across 10 Major Istanbul Malls
+# 📊 Customer Shopping Analytics: Retail Performance & Consumer Behavior Across 10 Major Istanbul Malls
 
 ---
 
