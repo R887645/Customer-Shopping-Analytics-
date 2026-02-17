@@ -1,168 +1,163 @@
-```markdown
-# 📊 Project Report: Customer Shopping Analytics – Retail Performance & Consumer Behavior
-
----
-
-## Project Title
-Customer Shopping Analytics – Retail Performance & Consumer Behavior
+# 📊 Sales & Customer Performance Analysis Across 10 Major Istanbul Malls
 
 ---
 
 ## Business Problem / Objective
-Retailers and mall operators in Istanbul face the challenge of understanding:
-- Customer shopping behavior and preferences.
-- Top-performing malls and product categories.
-- Purchasing patterns across age, gender, and payment methods.
-- Opportunities to optimize product placement, promotions, and mall strategies.
 
-**Key Questions:**
-- Who are the customers, and how do they shop?
-- Which malls and product categories drive the most revenue?
-- How do sales and orders trend over time?
-- Which customers are high-value vs low-value, and what opportunities exist to increase revenue from each segment?
+A mall operator managing 10 major shopping malls in Istanbul needed clarity on performance drivers and growth risks.
 
-**Challenge Solution:** Grouped customers into Low, Medium, and High spenders using a Customer Summary table to identify top and bottom customers.
+The business wanted to understand:
+
+- Which customer segments drive the most revenue?
+- Which malls and product categories are outperforming or declining?
+- How revenue is trending month-over-month (MoM) and year-over-year (YoY)
+- Where the strongest opportunities exist for growth and retention
+
+The objective of this analysis was to transform transactional retail data into actionable business insights to support strategic decision-making.
 
 ---
 
 ## Dataset Overview
-| Attribute | Details |
-|-----------|---------|
-| Source | Retail transaction dataset from EasyTech Talent Challenge |
-| Scope | Transactions across 10 major shopping malls in Istanbul |
-| Time Period | 2021–2023 |
-| Key Columns | Customer demographics (age, gender), Product category, Quantity, Price, Revenue, Payment method, Shopping mall, Invoice date |
-| Records | Tens of thousands of transactions |
+
+- Source: Retail transactional dataset (EasyTech Power BI Challenge)
+- Time Period: 2021–2023
+- Coverage: 10 major shopping malls in Istanbul
+- Data Type: Customer transactions
+- Key Columns:
+  - Invoice Date
+  - Customer Age & Gender
+  - Product Category
+  - Shopping Mall
+  - Quantity
+  - Revenue
+  - Payment Method
+
+The dataset captures multi-location performance, customer demographics, and category-level revenue trends.
 
 ---
 
 ## Tools Used
-- Microsoft Power BI – Data modeling, DAX measures, dashboard visualization
-- Excel – Initial cleaning, exploration, and aggregation
-- PowerPoint – Wireframing dashboard layout and planning visuals
+
+- Excel – Data inspection and validation
+- Power BI – Data modeling, DAX calculations, dashboard development
+- PowerPoint – Wireframing dashboard layout before development
 
 ---
 
 ## Data Cleaning & Preparation
-- Removed duplicate invoices and standardized date formats
-- Created DimDate and other dimension tables: Customer, Mall, Category, Payment, Date
-- Handled missing values in demographics
-- Created calculated measures: Revenue, Orders, Quantity, AOV, MoM, YoY
-- Created Customer Summary table to group customers into Low, Medium, High spenders
 
-**Business Analyst Thinking:** Grouping customers allows strategic segmentation for targeted promotions and retention campaigns, rather than analyzing raw customer IDs individually.
+- Removed duplicate transactions
+- Standardized date formats
+- Built dimensional data model (Customer, Date, Mall, Category, Payment)
+- Created DAX measures:
+  - Total Revenue
+  - Orders & Quantity
+  - Average Order Value (AOV)
+  - MoM Growth
+  - YoY Growth
+- Developed Customer Segmentation (Low, Medium, High spenders)
 
----
-
-## Challenges Faced
-- Identifying top and bottom customers was difficult because the raw data lacked clear segmentation.
-- Creating the Customer Summary table with Low, Medium, and High spenders resolved this issue and enabled effective grouping.
-- Wireframing the dashboard in PowerPoint before building it in Power BI helped plan a **logical layout**, improve readability, and ensure executive-ready visualization flow.
+This ensured the analysis was structured, scalable, and decision-ready.
 
 ---
 
 ## Key Questions & Analysis
-### Customer Behavior
-- Who are our customers by age and gender?
-- Which payment methods are preferred?
-- Which customers contribute most to revenue?
 
-### Sales Performance
-- How do sales and orders trend over time?
-- Which malls perform best and which are declining?
-- How does Average Order Value (AOV) vary by mall?
-
-### Category Insights
-- Which categories generate the most revenue and volume?
-- Which categories are growing or declining?
-- Which categories should be prioritized for promotions?
-
-### Segmentation Insights
-- Distribution of Low, Medium, High spenders across malls and categories
-- Revenue contribution of top vs bottom customers
+- Which customer age groups contribute the highest revenue?
+- Which malls generate the strongest performance?
+- Which categories dominate revenue contribution?
+- Are there performance risks due to over-reliance on certain malls or segments?
+- What are the observable seasonal and weekly sales patterns?
 
 ---
 
-## Key Insights
-### Customer Behavior
-- Majority of customers are aged 20–40
-- Credit card is the most preferred payment method
-- Top 10 customers contribute ~30% of total revenue
-- Medium and Low spenders present growth opportunities
+# 📊 Key Findings
 
-### Sales Performance
-- Revenue shows seasonal peaks with steady MoM growth
-- Mall of Istanbul and Kanyon lead in revenue; Emaar Square Mall has the highest AOV
-- Some malls are declining and need targeted retention campaigns
+## Customer Behaviour Insights
 
-### Category Insights
-- Clothing, Shoes, Technology dominate revenue
-- Cosmetics and Toys show growth potential
-- Food & Beverage has high volume but low AOV (upselling opportunity)
-
-### Customer Segmentation Insights
-- Customer grouping allows targeted promotions and retention strategies
-- Medium and Low spenders are concentrated in high-traffic malls
+- Total revenue grew to **$251.5M**, up **9.35% YoY**
+- Orders and quantities increased by approximately 9%
+- The **51+ age group (36K customers)** contributes the highest revenue share
+- Customers aged **21–40** form a strong secondary base critical for long-term growth
+- Gender contribution is balanced across segments
+- Digital payments dominate:
+  - Credit Card: 44.7%
+  - Debit Card: 35.1%
+  - Cash: 20%
+- Metrocity (15K customers) and Metropol AVM (10.2K) attract the highest customer traffic
+- Revenue shows seasonal fluctuations with clear expansion and contraction cycles
 
 ---
 
-## Recommendations
-### Customer Strategies
-- Focus loyalty programs on high spenders
-- Incentivize Low and Medium spenders to increase frequency and basket size
+## Sales Performance
 
-### Mall Strategies
-- Promote declining malls through targeted campaigns
-- Replicate successful strategies from top-performing malls
-
-### Category Strategies
-- Upsell in Food & Beverage
-- Promote declining categories (e.g., Books)
-- Maintain momentum in Electronics
-
-### Monitoring & Reporting
-- MoM metrics for short-term performance monitoring
-- YoY metrics for long-term strategic planning
+- Total revenue across 10 malls (2021–2023): **$221.6M**
+- Average Order Value: **$221.6K**
+- Top-performing malls:
+  - Mall of Istanbul ($52M)
+  - Kanyon ($47M)
+  - Emaar Square Mall ($42M)
+- Best-selling categories:
+  - Clothing ($57M)
+  - Shoes ($50M)
+  - Technology ($41M)
+- Some malls show declining YoY revenue, indicating over-reliance on high-performing locations
 
 ---
 
-## Dashboard / Visualization Layout
-| Page | Focus | Visuals |
-|------|-------|---------|
-| Page 1 | Customer Demographics & Behavior | Age/Gender distribution, Payment preferences, Top/Bottom customer segments |
-| Page 2 | Revenue & Mall Performance | Monthly revenue trend, Mall comparisons, Weekly sales distribution |
-| Page 3 | Category Insights | Revenue by category, Growth/Decline trends, Gender-based preferences, Top 5 categories line chart |
+## Category Insights
 
-**Wireframing:** PowerPoint used to plan layout and visual placement before building in Power BI.
+- Clothing, Shoes, and Technology dominate total revenue
+- Food & Beverage has high transaction volume but low AOV → Upsell opportunity
+- Cosmetics and Toys show emerging growth potential
+- Books category is declining and requires promotional intervention
 
 ---
 
-## Conclusion
-Provides a 360° view of customers, malls, and categories:
-- Improves customer loyalty and retention
-- Optimizes mall promotions and strategies
-- Prioritizes top-performing categories
-- Enables targeted marketing campaigns using customer segmentation
+# 🎯 Strategic Recommendations
 
-**Business Impact:** Supports data-driven decisions to increase revenue, improve customer satisfaction, and optimize operations
+- Develop targeted campaigns for younger professionals (21–40) to secure long-term growth
+- Launch digital-first loyalty programs (cashback, points, app-based rewards)
+- Strengthen marketing initiatives in mid-tier malls (Metrocity, Istinye Park)
+- Reduce performance dependency on top-performing malls
+- Align promotions with:
+  - Weekly sales spikes (Monday & Saturday)
+  - Seasonal peaks (January & October)
+
+---
+
+## Dashboard Overview
+
+The Power BI dashboard provides:
+
+- Customer demographic breakdown
+- Mall-level performance comparison
+- Category revenue analysis
+- MoM and YoY growth tracking
+- Customer segmentation insights
+
+Designed for executive-level decision support and performance monitoring.
 
 ---
 
 ## Limitations
-- No marketing spend or external economic factors included
-- Customer demographics limited to age and gender
-- MoM and YoY trends may be affected by irregular transactions
+
+- Dataset does not include marketing spend
+- No customer income or behavioral loyalty data available
+- External economic factors were not included in the analysis
+
+---
+
+## Conclusion
+
+This analysis identified key revenue drivers, performance risks, and growth opportunities across 10 major malls in Istanbul.
+
+By combining customer segmentation, category performance analysis, and trend tracking, the business can make informed decisions to optimize revenue and reduce operational risk.
 
 ---
 
 ## About Me
-I am an **E-commerce Data Analyst** with experience in retail analytics, customer segmentation, and Power BI dashboarding. I help businesses understand customer behavior, optimize category and mall strategies, and drive revenue growth through data-driven insights. My skills include advanced DAX, data modeling, and actionable visualization storytelling.
 
----
+I am an E-commerce & Retail Data Analyst specializing in revenue optimization, customer segmentation, and Power BI dashboard development.
 
-## Documentation Approach
-- Written in business language for executives
-- Avoided technical jargon; focused on business impact
-- Bullet points used for readability
-- Highlighted analytical methodology, challenges, and strategic recommendations
-```
+I help businesses transform transactional data into strategic insights that drive measurable growth and support executive decision-making.
