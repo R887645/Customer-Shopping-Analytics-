@@ -34,7 +34,7 @@ The objective of this analysis was to transform transactional retail data into a
 
 The dataset captures multi-location performance, customer demographics, and category-level revenue trends.
 
-![My Image Description}(https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Main%20Dataset_Customershoopping.png?raw=true)
+![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Main%20Dataset_Customershoopping.png?raw=true)
 ---
 
 ## Tools Used
