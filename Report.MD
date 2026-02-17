@@ -38,7 +38,7 @@ The dataset captures multi-location performance, customer demographics, and cate
 
 ## Tools Used
 
-- Excel – Data inspection and validation
+- Excel and Power Query– Data inspection, cleaning, and validation
 - Power BI – Data modeling, DAX calculations, dashboard development
 - PowerPoint – Wireframing dashboard layout before development
 
@@ -48,14 +48,14 @@ The dataset captures multi-location performance, customer demographics, and cate
 
 - Removed duplicate transactions
 - Standardized date formats
-- Built dimensional data model (Customer, Date, Mall, Category, Payment)
+- Built dimensional data models across (Customer, Order, Mall, Category, Payment)
 - Created DAX measures:
   - Total Revenue
   - Orders & Quantity
   - Average Order Value (AOV)
   - MoM Growth
-  - YoY Growth
-- Developed Customer Segmentation (Low, Medium, High spenders)
+  - YoY Growth and lots more
+- created a Product Categories table that has unique categories with reference URLs from Pinterest
 
 This ensured the analysis was structured, scalable, and decision-ready.
 
