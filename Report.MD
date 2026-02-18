@@ -93,7 +93,7 @@ This ensured the analysis was structured, scalable, and decision-ready.
 ## Customer Behavior Insights
 
 - Revenue grew **9.35% YoY**, driven by increases in order volume and quantities purchased.
-- The **51+ age group dominates revenue (~$24.8M)**, representing the most financially impactful segment.
+- The **51+ age group dominates revenue (~₺24.8M)**, representing the most financially impactful segment.
 - Younger professionals (**21–40**) show steady growth and represent long-term sustainability potential.
 - **Credit cards (44.7%)** are the most preferred payment method, while cash accounts for 20%, signaling strong digital adoption.
 - **Metrocity, Mall of Istanbul, and Kanyon** attract the highest customer traffic.
@@ -104,10 +104,10 @@ This ensured the analysis was structured, scalable, and decision-ready.
 
 ## Sales Performance Analysis
 
-- **Total Revenue:** $68.55M  
-- **Average Order Value (AOV):** ~$689 (stable across locations)
+- **Total Revenue:** ₺68.55M  
+- **Average Order Value (AOV):** ~₺689 (stable across locations)
 - The **Top 5 malls** (Mall of Istanbul, Kanyon, Metrocity, Metropol AVM, Istinye Park) generate the majority of total revenue.
-- The **Bottom 5 malls** (Cevahir, Emaar Square, Forum Istanbul, Viaport, Zorlu) each generate approximately ~$3.3M, reflecting weaker traffic despite similar AOV.
+- The **Bottom 5 malls** (Cevahir, Emaar Square, Forum Istanbul, Viaport, Zorlu) each generate approximately ~₺3.3M, reflecting weaker traffic despite similar AOV.
 - Sales peak on **Monday and Saturday**, with seasonal highs in **January and October**.
 - Some malls show declining YoY revenue, indicating over-reliance on high-performing locations
 
@@ -117,7 +117,7 @@ This ensured the analysis was structured, scalable, and decision-ready.
 
 ## Category Insights
 
-- **Clothing ($31M), Shoes ($18M), and Technology ($16M)** dominate total revenue contribution.
+- **Clothing (₺31M), Shoes (₺18M), and Technology (₺16M)** dominate total revenue contribution.
 - Female customers account for approximately **60% of total spending** across categories.
 - Cosmetics and Toys underperform relative to their broader market potential.
 - Monthly category trends reveal seasonal spikes but uneven growth across segments.
