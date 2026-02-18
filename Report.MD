@@ -168,9 +168,9 @@ The Power BI dashboard provides:
 - Customer segmentation insights
 - Easy navigation of the dashboard using Slicr and resetting Bookmarks
 
-[View the Full Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiOWM2ZjUyMDktNTNmZS00YTFlLTgwODAtYmU3NmUzMmFhNGY1IiwidCI6ImZjY2Y0MmRmLTE2ZDktNGU4Ny1hNmUwLWU0OTYyMjAxN2Y3NCJ9)
+[View the Full Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiMzEwMjUyMTItMTAyZS00MmFmLWEzMGItYTA1N2E0MDc4OGQ3IiwidCI6ImZjY2Y0MmRmLTE2ZDktNGU4Ny1hNmUwLWU0OTYyMjAxN2Y3NCJ9)
 
-[Also Checkout the full slides of this report](https://drive.google.com/file/d/1bFaQ6NIMryTsN9eyvMhe3oB713akAw4R/view?usp=sharing)
+[Checkout the full slides of this report](https://drive.google.com/file/d/1bFaQ6NIMryTsN9eyvMhe3oB713akAw4R/view?usp=sharing)
 
 Designed for executive-level decision support and performance monitoring.
 
