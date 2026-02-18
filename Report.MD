@@ -29,12 +29,12 @@ The objective of this analysis was to transform transactional retail data into a
   - Product Category
   - Shopping Mall
   - Quantity
-  - Revenue
+  - Revenue (Price)
   - Payment Method
 
 The dataset captures multi-location performance, customer demographics, and category-level revenue trends.
 
-![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Main%20Dataset_Customershoopping.png?raw=true)
+![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Customer_Shopping_Maindataset.png?raw=true)
 ---
 
 ## Tools Used
@@ -90,36 +90,25 @@ This ensured the analysis was structured, scalable, and decision-ready.
 
 ## Customer Behaviour Insights
 
-- Total revenue grew to **$251.5M**, up **9.35% YoY**
-- Orders and quantities increased by approximately 9%
-- The **51+ age group (36K customers)** contributes the highest revenue share
-- Customers aged **21–40** form a strong secondary base critical for long-term growth
-- Gender contribution is balanced across segments
-- Digital payments dominate:
-  - Credit Card: 44.7%
-  - Debit Card: 35.1%
-  - Cash: 20%
-- Metrocity (15K customers) and Metropol AVM (10.2K) attract the highest customer traffic
-- Revenue shows seasonal fluctuations with clear expansion and contraction cycles
+## Customer Behavior Insights
+
+- Revenue grew **9.35% YoY**, driven by increases in order volume and quantities purchased.
+- The **51+ age group dominates revenue (~$24.8M)**, representing the most financially impactful segment.
+- Younger professionals (**21–40**) show steady growth and represent long-term sustainability potential.
+- **Credit cards (44.7%)** are the most preferred payment method, while cash accounts for 20%, signaling strong digital adoption.
+- **Metrocity, Mall of Istanbul, and Kanyon** attract the highest customer traffic.
 
 ![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Customer_Shopping_Customer%20analysis.png?raw=true)
 
 ---
 
-## Sales Performance
+## Sales Performance Analysis
 
-- Total revenue across 10 malls (2021–2023): **$221.6M**
-- Average Order Value: **$221.6K**
-- Top-performing malls:
-  - Mall of Istanbul ($52M)
-  - Kanyon ($47M)
-  - Emaar Square Mall ($42M)
-- Bottom Performing malls:
-  - (Cevahir AVM, Emaar Square, Forum Istanbul, Viaport Outlet, Zorlu Center)
-- Best-selling categories:
-  - Clothing ($57M)
-  - Shoes ($50M)
-  - Technology ($41M)
+- **Total Revenue:** $68.55M  
+- **Average Order Value (AOV):** ~$689 (stable across locations)
+- The **Top 5 malls** (Mall of Istanbul, Kanyon, Metrocity, Metropol AVM, Istinye Park) generate the majority of total revenue.
+- The **Bottom 5 malls** (Cevahir, Emaar Square, Forum Istanbul, Viaport, Zorlu) each generate approximately ~$3.3M, reflecting weaker traffic despite similar AOV.
+- Sales peak on **Monday and Saturday**, with seasonal highs in **January and October**.
 - Some malls show declining YoY revenue, indicating over-reliance on high-performing locations
 
 ![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Customer_Shopping_Sales.png?raw=true)
@@ -128,10 +117,10 @@ This ensured the analysis was structured, scalable, and decision-ready.
 
 ## Category Insights
 
-- Clothing, Shoes, and Technology dominate total revenue
-- Food & Beverage has high transaction volume but low AOV → Upsell opportunity
-- Cosmetics and Toys show emerging growth potential
-- The books category is declining and requires promotional intervention
+- **Clothing ($31M), Shoes ($18M), and Technology ($16M)** dominate total revenue contribution.
+- Female customers account for approximately **60% of total spending** across categories.
+- Cosmetics and Toys underperform relative to their broader market potential.
+- Monthly category trends reveal seasonal spikes but uneven growth across segments.
 
 ![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Customer_Shopping_Category.png?raw=true)
 
@@ -139,13 +128,32 @@ This ensured the analysis was structured, scalable, and decision-ready.
 
 # Strategic Recommendations
 
-- Develop targeted campaigns for younger professionals (21–40) to secure long-term growth
-- Launch digital-first loyalty programs (cashback, points, app-based rewards)
-- Strengthen marketing and events in low-performing malls (Forum, Emaar Square) to reduce over‑reliance on top performers.
-- Reduce performance dependency on top-performing malls
-- Align promotions with:
-  - Weekly sales spikes (Monday & Saturday)
-  - Seasonal peaks (January & October)
+## 1️⃣ Target Younger Professionals for Sustainable Growth
+
+Develop tailored campaigns for the **21–40 segment** focused on fashion, technology, and lifestyle products to sustain long-term revenue beyond the 51+ demographic.
+
+## 2️⃣ Expand Digital-First Loyalty Programs
+
+Introduce cashback rewards, points-based systems, and app-exclusive promotions to:
+- Reduce reliance on cash
+- Increase repeat purchases
+- Improve customer retention
+
+## 3️⃣ Strengthen Underperforming Malls
+
+Increase marketing efforts and in-mall events in **Forum Istanbul, Emaar Square, Viaport, and Zorlu** to balance performance and reduce over-reliance on Mall of Istanbul and Kanyon.
+
+## 4️⃣ Optimize Category Strategy
+
+Double down on high-performing categories (**Clothing, Shoes, Technology**) while repositioning weaker categories (**Cosmetics, Toys, Books**) using bundled offers and targeted promotions.
+
+## 5️⃣ Align Promotions with Demand Peaks
+
+Schedule campaigns, product launches, and upsell strategies around:
+- High-traffic days (**Monday & Saturday**)
+- Seasonal demand spikes (**January & October**)
+
+This ensures marketing spend is aligned with natural revenue acceleration periods.
 
 ---
 
@@ -160,7 +168,7 @@ The Power BI dashboard provides:
 - Customer segmentation insights
 - Easy navigation of the dashboard using Slicr and resetting Bookmarks
 
-[View the Full Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiY2QxNmU3NDEtYWFiMS00MDYzLTk2YzEtNjc1YjkyZDk5NDM5IiwidCI6ImZjY2Y0MmRmLTE2ZDktNGU4Ny1hNmUwLWU0OTYyMjAxN2Y3NCJ9)
+[View the Full Interactive Dashboard Here](https://app.powerbi.com/view?r=eyJrIjoiOWM2ZjUyMDktNTNmZS00YTFlLTgwODAtYmU3NmUzMmFhNGY1IiwidCI6ImZjY2Y0MmRmLTE2ZDktNGU4Ny1hNmUwLWU0OTYyMjAxN2Y3NCJ9)
 
 Designed for executive-level decision support and performance monitoring.
 
