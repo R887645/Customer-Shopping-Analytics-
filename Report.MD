@@ -88,8 +88,6 @@ This ensured the analysis was structured, scalable, and decision-ready.
 - An overview of what the analysis is about, and navigation buttons to get across to all the pages
 ![My Image Description](https://github.com/R887645/Customer-Shopping-Analytics-/blob/main/Customer_Shopping_Homepage.png?raw=true)
 
-## Customer Behaviour Insights
-
 ## Customer Behavior Insights
 
 - Revenue grew **9.35% YoY**, driven by increases in order volume and quantities purchased.
@@ -180,7 +178,6 @@ Designed for executive-level decision support and performance monitoring.
 ## Limitations
 
 - The dataset does not include marketing spend
-- No customer income or behavioral loyalty data available
 - External economic factors were not included in the analysis
 - Doesn't include the real customer names, and some customers bought the same amount of products, making it hard to do that particular analysis (Top customers and bottom-performing customers)
 
